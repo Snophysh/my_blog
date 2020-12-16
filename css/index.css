@@ -22,6 +22,11 @@ body {
 p:last-child {
   margin-bottom: 0;
 }
+.tmpl-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 p,
 .tmpl-post li,
 img {

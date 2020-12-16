@@ -1,0 +1,7 @@
+<ul>
+{% for story in writinglist %}
+
+    <li><a href="{{ story.url | url }}">{{story.data.title}}</a></li>
+
+{% endfor %}
+</ul>

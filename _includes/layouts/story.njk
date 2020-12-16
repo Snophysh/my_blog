@@ -1,0 +1,34 @@
+---
+layout: layouts/home.njk
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>{{title}}</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="{{'/css/stories.css' | url}}">
+
+    </head>
+
+    <body>
+        <header id="story-header">
+            <h1 id="title">{{title}}</h1>
+        </header>
+        <div class="outerContainer">
+            <div id="story" class="container"></div>
+            <hr></hr>
+            <div id="choices"></div>
+        </div>
+        <script>
+            {% include "js/jquery-3.5.1.min.js" %}
+            {% include "js/ink.js" %}
+            {% include storyFile %}
+            {% include "js/main.js" %}
+        </script>
+
+    </body>
+</html>

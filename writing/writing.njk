@@ -1,0 +1,13 @@
+---
+layout: layouts/home.njk
+permalink: /writing/
+eleventyNavigation:
+  key: Writing
+  order: 3
+---
+
+<h1>Writing</h1>
+
+<h2>Flash Interactive Fiction</h2>
+{% set writinglist = collections.flash %}
+{% include "writinglist.njk" %}

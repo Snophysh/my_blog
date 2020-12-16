@@ -1,20 +1,20 @@
 {
   "title": "Snophysh's IF Works",
-  "url": "https://example.com/",
+  "url": "https://snophysh.com/",
   "description": "A home for my interactive fiction writing.",
   "feed": {
     "subtitle": "I am writing about my experiences and fumblings creating interactive fiction.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://snophysh.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://snophysh.com/feed/feed.json"
   },
   "author": {
     "name": "Snophysh",
     "email": "snophysh@gmail.com",
-    "url": "https://example.com/about-me/"
+    "url": "https://snophysh.com/about-me/"
   }
 }

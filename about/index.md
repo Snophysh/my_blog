@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 4
 ---
 
-I am a person that writes interactive stuff.
+You can find me on twitter [here](https://twitter.com/snophysh). Also I have my game jam games and longer work on my [itch page](https://snophysh.itch.io/). If you wanna follow my work and see some code I post pretty regularly to my [github](https://github.com/Snophysh).
